@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
               reordered_hash[name][key] = []
           end 
           
-          reordered_hash[name][key].push(color)
+          reordered_hash[name][key].push(color.to_s)
          
          
             #value of key color is an array - iterate thru names arr 
