@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key, inner_hash|      # iterates thru outer hash aka data
     inner_hash.each do |color, name_array|   #iterates thru first key hash aka color 
     
-     binding.pry 
+    # binding.pry 
       name_array.each do |name|
         if !reordered_hash[name]
               reordered_hash[name] = {}
